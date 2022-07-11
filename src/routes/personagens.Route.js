@@ -4,7 +4,8 @@ const controller = require('../controllers/controller');
 
 const route = require('express').Router();
 
-route.get('/allPersonagens', controller.findAllPersonController);
+route.get('/allPersonagens', 
+controller.findAllPersonController);
 
 route.get('/personagens/:id', controller.findByIdPersonController);
 
