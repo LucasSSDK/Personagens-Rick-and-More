@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const PersonagensSchema = 
 new mongoose.Schema ({
-    personagem:{type: String, required: true}
+    nome:{type: String, required: true},
+    url:{type: String, required: true}
     
 });
 

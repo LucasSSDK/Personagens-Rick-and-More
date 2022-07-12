@@ -1,12 +1,12 @@
 [
     {
-        "personagem":"Rick Sanches",
-        "UrlImg": "image.png"
+        "nome":"Rick Sanches",
+        "url": "image.png"
     },
 
     {
-        "personagem": "More Smith",
-        "UrlImg":"image.png"
+        "nome": "More Smith",
+        "url":"image.png"
 
     }
 ]

@@ -32,7 +32,7 @@ const findByIdPersonController = async (req, res) => {
 const createPerson = async (req, res) => {
   const personagem = req.body;
 
-  if (!personagem || !personagem.nome || !personagem.url) {
+  if (!personagem.nome || !personagem.url) {
     return res.status(400).send({
       message:
         'Você não preencheu todos os campos para fazer a edição desse personagem!',
