@@ -2,7 +2,7 @@ const PersonService = require('../services/personagens.Service');
 const mongoose = require('mongoose');
 
 const findAllPersonController = async (req, res) => {
-  const allPerson = await PersonService.findAllPersonService();
+  const allPerson = await PersonService.findAllPerson();
   if (allPerson.length == 0) {
     return res
       .status(404)
@@ -26,7 +26,7 @@ const findByIdPersonController = async (req, res) => {
     return res.status(206);
   }
 
-  res.send(personagem);
+  res.send();
 };
 
 const createPerson = async (req, res) => {

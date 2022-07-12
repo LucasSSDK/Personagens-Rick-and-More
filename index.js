@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const port = 3000;
 const app = express();
-const routes = require('./src/database/mongodb');
+const routes = require('./src/routes/personagens.Route');
 const connectToDatabase = require('./src/database/mongodb');
 
 app.use(express.json());
